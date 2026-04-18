@@ -1,0 +1,14 @@
+name: BlockFiller
+version: '1.0-RELEASE'
+main: top.yzljc.blockFiller.BlockFiller
+api-version: '1.21'
+authors: [ YZ_Ljc_ ]
+description: YZ_Ljc_ Dev - BlockFiller
+website: www.yzljc.top
+
+commands:
+  blockfiller:
+    description: BlockFiller 主命令
+    permission: blockfiller.use
+    permission-message: §c你没有权限使用此命令！
+    aliases: [bf]
